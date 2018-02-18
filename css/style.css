@@ -1,0 +1,165 @@
+*{
+	 box-sizing: border-box;
+	font-family: 'Acme', sans-serif;
+
+
+}
+header{
+	background-image: url("../img/header.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+ 	margin:0;
+ 	padding-top:1px;
+ 	height: 620px;
+     	
+
+}
+
+.container {
+ position: relative;
+}
+.head-text{
+	background: #fff;
+    transform: rotate(-7deg);
+    margin-left: 20%;
+    margin-top:200px;
+    text-align: left;
+    color: #000;
+    opacity: 0.6;
+    width: 40%;
+
+
+}
+.head-text h1{
+	font-family: cursive;
+	font-size: 1.9em;
+	margin:0;
+ 	padding:0;
+
+}
+.icons {
+
+
+}
+.icons ul li img{
+	float: left;
+	width: 40px;
+	height:40px;
+	padding: 0;
+	margin:10px;
+	display: inline-block;
+}
+
+/************** Header *******************/
+main{
+  background: #403E17;
+  opacity: 0.6;
+  width:100%;
+  margin:0;
+  padding: 0;
+  height: 50px;
+ 
+}
+main ul{
+  
+  margin-left:5%;
+  width:30%; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+main ul li{
+  margin-top:10px; 	 
+}
+main ul li a{
+ width: 6%; 
+ color: #fff;
+ opacity: 0.5;
+}
+main ul li a:hover{
+ color: #4D8591;
+
+}
+.main-container{
+	padding-top: 70px;
+	width: 75%;
+    margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.first{
+width: 30%;
+text-align: center;
+}
+.first h3{
+	font-size: 1.3em;
+	color: #1e1e1e;
+
+}
+.first p{
+	font-size: 0.9em;
+	line-height: 1em;
+	color: #808080;
+}
+
+.first img{
+	width: 100px;
+	height: 100px;
+}
+.content{
+
+background-color: #DCDCDC;
+width: 100%;	
+margin-top: 60px;
+}
+.second-container{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 75%;
+	margin: 0 auto;
+	display: flex;
+}
+.a,.b{
+	flex: 1;
+
+}
+.a{
+	text-align: left;
+	color:#4D5656;
+}
+.b{
+text-align: right;
+
+}
+
+.container-last{
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 70px; 
+	color: #2E4053;
+}
+.container-last h3{
+	text-align: center;
+	font-size: 1.3em;
+}
+.container-last img{
+	margin: 20px auto;
+
+}
+footer{
+	background-color:  #DCDCDC;
+	height: 50px;
+	color: #2E4053;
+	margin-top:200px;
+}
+.f-container{
+	text-align: center;
+	padding-top: 10px;
+   
+}
+.f-container p{
+	margin: auto;
+}
